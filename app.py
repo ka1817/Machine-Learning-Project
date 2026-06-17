@@ -5,7 +5,7 @@ import numpy as np
 from pydantic import BaseModel, Field
 import uvicorn  
 
-app = FastAPI(title="Shopping Mall Customer Segmentation Application", version="1.0")
+app = FastAPI(title="Shopping Mall Customer Segmentation", version="1.0")
 
 PIPELINE_PATH = "customer_kmeans_pipeline.pkl"
 pipeline = None
